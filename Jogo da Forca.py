@@ -12,7 +12,7 @@ palavras = [
      ]
 
 print("==========ESCOLHA DE PALAVRA==========")
-indice = int(input("Digite um número"))
+indice = int(input("Digite um número:"))
 palavra = palavras[(indice*776) % len(palavras)]
 
 for espaço in range(50):
