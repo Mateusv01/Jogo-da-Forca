@@ -126,7 +126,6 @@ while acertou == False :
      for x in range(0,len(letras_descobertas)):
           if letras_descobertas[x] == "-" :
                acertou = False
-
-
+print(f"Você Acertou!! a palavra era {palavra}")
                
           
